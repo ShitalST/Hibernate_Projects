@@ -8,8 +8,8 @@
       <property name="hbm2ddl.auto">update</property>  
       <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>  
       <property name="connection.url">jdbc:mysql://localhost:3306/Hospitals?createDatabaseIfNotExist=true</property>  
-      <property name="connection.username">root</property>  
-      <property name="connection.password">Shital2002</property>  
+      <property name="connection.username">username</property>  
+      <property name="connection.password">password</property>  
       <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>  
       <mapping class="hospitalSystem.Patient"/>
         <mapping class="hospitalSystem.Appointment"/>
